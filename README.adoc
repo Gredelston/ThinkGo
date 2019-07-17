@@ -1,17 +1,23 @@
 # Think Go
 
-Remix of _Think Python 2e_ and _Think Java 2e_ by Allen Downey and Chris Mayfield for the Go programming language.
+Remix of https://github.com/AllenDowney/ThinkPython2[_Think Python 2e_] and https://github.com/AllenDowney/ThinkJava[_Think Java 2e_] by Allen Downey and Chris Mayfield for the Go programming language.
 
-## This project is in a very early stage
+## This project is in a very early stage.
 
 While this project is not a secret, there's no point in making it widely known at this time, because there's very little content for its target audience.
 
-## Tools I am using
+## Content creation via AsciiDoc
 
-I started this book using *LaTeX*, the notation used by Downey and Mayfield in their books. After staying away from it for a few weeks because of two conferences and a vacation, *LaTeX* looked even more alien than before, so I decided to restart using *AsciiDoc*, the same notation I used to write _Fluent Python_.
+We are writing _Think Go_ using *AsciiDoc*. This is the same notation as was used for https://github.com/fluentpython[_Fluent Python_], and a departure from *LaTeX*, which Downey and Mayfield used in their books. This decision was made due to the authors' familiarity with *AsciiDoc*.
 
-I've done significant writing using *ReStructuredText* (*ReST*), *Markdown*, and *AsciiDoc*. *AsciiDoc* is more expressive than the other two, has friendlier syntax than *ReST*, and supports standard frontmatter and backmatter book sections (dedication, preface, bibliography, glossary, index, colophon) plus footnotes and index entries. *AsciiDoc* does support UTF-8, despite its misleading name.
+*AsciiDoc* was also chosen over *ReStructuredText* (*ReST*) and *Markdown*. *AsciiDoc* is more expressive than the other two, has friendlier syntax than *ReST*, and supports standard frontmatter and backmatter book sections (dedication, preface, bibliography, glossary, index, colophon) plus footnotes and index entries. *AsciiDoc* does support UTF-8, despite its misleading name.
 
 The https://asciidoctor.org/[AsciiDoctor] toolchain in *Ruby* renders AsciiDoc in multiple formats. *AsciiDoctor* is more actively maintained than https://github.com/asciidoc[asciidoc], which had no releases from 2014 to 2016 and is still using *Python 2* in 2018.
 
-To write, I am using the *Atom* editor with the https://atom.io/packages/asciidoc-assistant[AsciiDoc Assistant] package -- though I had to install its sub-packages one by one. To preview in another window, I use the https://addons.mozilla.org/en-US/firefox/addon/asciidoctorjs-live-preview/[Asciidoctor.js Live Preview] add-on for *Firefox*.
+For writing, Luciano is using the *Atom* editor with the https://atom.io/packages/asciidoc-assistant[AsciiDoc Assistant] package -- though he had to install its sub-packages one by one -- while Greg is using the *VSCode* editor with the https://marketplace.visualstudio.com/items?itemName=joaompinto.asciidoctor-vscode[AsciiDoc] package. To preview in another window, we use the *Asciidoctor.js Live Preview* add-on for https://addons.mozilla.org/en-US/firefox/addon/asciidoctorjs-live-preview/[Firefox] and for https://chrome.google.com/webstore/detail/asciidoctorjs-live-previe/iaalpfgpbocpdfblpnhhgllgbdbchmia?hl=en[Chrome].
+
+## Contributors
+
+https://github.com/AllenDowney[Allen Downey] and https://github.com/ChrisMayfield[Chris Mayfield] wrote _Think Python 2e_ and _Think Java 2e_ which serve as a basis for this book.
+
+https://github.com/ramalho[Luciano Ramalho] and https://github.com/gredelston[Greg Edelston] have been the primary authors to _Think Go_.
